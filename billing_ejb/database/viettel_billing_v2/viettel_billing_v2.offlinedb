@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <hash n="dataTypeSettings">
+      <value n="sourceKey" v="oracle.javatools.db.ora.Oracle11gR2"/>
+   </hash>
+   <value n="id" v="0a1510c7-75b6-4b6d-a6c8-9ccb2826451b"/>
+   <value n="name" v="viettel_billing_v2"/>
+</ProviderSettings>

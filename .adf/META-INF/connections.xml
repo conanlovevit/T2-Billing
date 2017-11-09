@@ -1,0 +1,248 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="viettel_billing_v2_log" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="viettel_billing_v2_log" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>xmio</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>10.10.10.140</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>billing_v2_log</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="load_balance_v4" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="load_balance_v4" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>xmio1</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>172.16.236.72</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>load_balance_v4</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="xmio_live" className="oracle.jdeveloper.db.adapter.DatabaseProvider" credentialStoreKey="xmio_live"
+             xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>xmio1</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>172.16.236.67</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>xmio_live</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="viettel_billing_v2" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="viettel_billing_v2" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>xmio1</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>172.16.236.65</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>billing_v2</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ztv3_billing" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ztv3_billing" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>zdb5</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>125.212.225.211</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>stb_accbilling</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="sub_billing" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="sub_billing" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>itvdb</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>192.168.90.79</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>billing_v2</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="ztvt2_billing" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="ztvt2_billing" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>ztvdb</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>10.10.10.30</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>billing</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="content_log" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="content_log" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>ztvdb</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>10.10.10.30</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>content_log</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+  <Reference name="launcher" className="oracle.jdeveloper.db.adapter.DatabaseProvider" credentialStoreKey="launcher"
+             xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="sid">
+        <Contents>ztvdb</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>10.10.10.30</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>launcher</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

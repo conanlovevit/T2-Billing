@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+  <persistence-unit name="billing_log_ejb">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/app/jdbc/jdbc/ztvt2_billing_logDS</jta-data-source>
+    <class>com.viettel.billing_log.bl.database.Account</class>
+    <class>com.viettel.billing_log.bl.database.Action</class>
+    <class>com.viettel.billing_log.bl.database.Content</class>
+    <class>com.viettel.billing_log.bl.database.ContentType</class>
+    <class>com.viettel.billing_log.bl.database.Cp</class>
+    <class>com.viettel.billing_log.bl.database.Log</class>
+    <properties>
+      <property name="javax.persistence.jtaDataSource" value="java:/app/jdbc/jdbc/ztvt2_billing_logDS"/>
+    </properties>
+  </persistence-unit>
+</persistence>

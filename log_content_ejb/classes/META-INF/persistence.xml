@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+  <persistence-unit name="log_content_ejb">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/app/jdbc/jdbc/content_logDS</jta-data-source>
+    <class>com.content_log.ejb.bl.model.TblContent</class>
+    <class>com.content_log.ejb.bl.model.TblDevice</class>
+    <class>com.content_log.ejb.bl.model.TblLog</class>
+    <class>com.content_log.ejb.bl.model.TblService</class>
+    <class>com.content_log.ejb.bl.model.TblGcm</class>
+    <properties>
+      <property name="eclipselink.target-server" value="WebLogic_10"/>
+      <property name="javax.persistence.jtaDataSource" value="java:/app/jdbc/jdbc/content_logDS"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdbc-data-source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/jdbc-data-source http://xmlns.oracle.com/weblogic/jdbc-data-source/1.0/jdbc-data-source.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/jdbc-data-source">
+    <name>ztv3_billing</name>
+    <jdbc-driver-params>
+        <url>jdbc:oracle:thin:@125.212.225.211:1521:zdb5</url>
+        <driver-name>oracle.jdbc.OracleDriver</driver-name>
+        <properties>
+            <property>
+                <name>user</name>
+                <value>stb_accbilling</value>
+            </property>
+        </properties>
+        <password-encrypted>E056A4008D164D8806DD25E2F762FF2B96048379D9C652A2C0EED74F3B3CD190</password-encrypted>
+    </jdbc-driver-params>
+    <jdbc-connection-pool-params>
+        <test-table-name>SQL SELECT 1 FROM DUAL</test-table-name>
+    </jdbc-connection-pool-params>
+    <jdbc-data-source-params>
+        <jndi-name>jdbc/ztv3_billingDS</jndi-name>
+        <scope>Application</scope>
+    </jdbc-data-source-params>
+</jdbc-data-source>
